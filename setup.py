@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='dynamo_db_dict',
-    version='0.2.2',
+    version='0.2.4',
     description='Simple Python interface to Amazon DynamoDB, adding some dict-like sugar to boto.dynamodb.layer2.',
     long_description='''
 
@@ -40,4 +40,8 @@ See also:
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     py_modules=['dynamo_db_dict'],
+    install_requires=[
+        'adict',
+        'boto',
+    ],
 )

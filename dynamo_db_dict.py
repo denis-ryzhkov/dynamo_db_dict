@@ -22,7 +22,7 @@ See also:
 * http://aws.amazon.com/dynamodb/
 * http://boto.cloudhackers.com/en/latest/ref/dynamodb.html#module-boto.dynamodb.layer2
 
-dynamo_db_dict version 0.2.2
+dynamo_db_dict version 0.2.4
 Copyright (C) 2012 by Denis Ryzhkov <denis@ryzhkov.org>
 MIT License, see http://opensource.org/licenses/MIT
 '''
