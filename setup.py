@@ -2,12 +2,9 @@ from distutils.core import setup
 
 setup(
     name='dynamo_db_dict',
-    version='0.2.1',
+    version='0.2.2',
     description='Simple Python interface to Amazon DynamoDB, adding some dict-like sugar to boto.dynamodb.layer2.',
     long_description='''
-See also:
-* `Amazon DynamoDB <http://aws.amazon.com/dynamodb/>`_
-* `boto.dynamodb.layer2 <http://boto.cloudhackers.com/en/latest/ref/dynamodb.html#module-boto.dynamodb.layer2>`_
 
 Usage::
 
@@ -24,6 +21,11 @@ Usage::
     assert john['first_name'] == 'John' # Key access.
     assert john.first_name == 'John' # Attr access.
     del db.user['john@example.com'] # Delete.
+
+See also:
+
+* `Amazon DynamoDB <http://aws.amazon.com/dynamodb/>`_
+* `boto.dynamodb.layer2 <http://boto.cloudhackers.com/en/latest/ref/dynamodb.html#module-boto.dynamodb.layer2>`_
 
 ''',
     url='https://github.com/denis-ryzhkov/dynamo_db_dict',

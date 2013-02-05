@@ -20,6 +20,6 @@ Usage:
     assert john.first_name == 'John' # Attr access.
     del db.user['john@example.com'] # Delete.
 
-dynamo_db_dict version 0.2.1  
+dynamo_db_dict version 0.2.2  
 Copyright (C) 2012 by Denis Ryzhkov <denis@ryzhkov.org>  
 MIT License, see http://opensource.org/licenses/MIT
